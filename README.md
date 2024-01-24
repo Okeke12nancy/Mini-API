@@ -129,6 +129,7 @@ export default (app) => {
 
 - GET "/api/v1/:userId": Retrieves a user by its id(Requires Authentication)
 - GET "/api/v1/": Retrieves all users.(Requires Authentication)
+- GET "/api/v1/user": searches a user by firstName, lastName,date added
 - PUT "/api/v1/:userId": Updates a user by its id. (Requires Authorization and Authentication).
 - DELETE "/api/v1/:userId": Deletes a user by its id. (Requires Authorization and Authentication)
 
@@ -152,21 +153,8 @@ export default (app) => {
 
 > Test out your endpoints by making the necessary request to their responsive endpoints
 
-### API Documentation URL
-
-```
-https://post-it-isao.onrender.com/api/v1/docs
-```
-
 ### API URL
 
 ```
-https://post-it-isao.onrender.com
-```
-
-### Database Model Design
-
-```
- https://dbdesigner.page.link/DhZwenJBsm23wqTK6
-
+https://mini-api-lasp.onrender.com
 ```
